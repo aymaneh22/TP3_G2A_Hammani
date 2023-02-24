@@ -1,22 +1,9 @@
 public class Cell {
-    final Position position;
-    boolean isEmpty;
+    private Position position;
+    private boolean isEmpty;
 
-    public Cell(Position position) {
-        this.position = position;
-        this.isEmpty = true;
-    }
-
-    public Position getPosition() {
-        return position;
-    }
-
-    public boolean isEmpty() {
+    public boolean Cell(Position position) {
         return isEmpty;
-    }
-
-    public void setEmpty(boolean isEmpty) {
-        this.isEmpty = isEmpty;
     }
 
 }
